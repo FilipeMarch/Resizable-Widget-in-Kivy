@@ -345,11 +345,6 @@ class ResizeSelect(FloatLayout):
         return super().on_touch_down(touch)
 
     def on_touch_move(self, touch):
-        forbidden_top = 550
-        forbidden_right = 750
-        forbidden_bottom = 50
-        forbidden_left = 50
-
         MINIMUM_HEIGHT = 50.0
         MINIMUM_WIDTH = 50.0
 
